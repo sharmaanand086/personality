@@ -1,9 +1,8 @@
 <?php
-include("isdk.php");
-$servername = "localhost";
-$username = "worldsuc_assign";
-$password = "asdf1234";
-$dbname = "worldsuc_personality";
+ $servername = "localhost";
+$username = "xxxxxxxxxxxxxxxxxxxxx";
+$password = "xxxxxxxxxxxxxxxxxxxx";
+$dbname = "xxxxxxxxxxxxxxxxxxxxxx";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

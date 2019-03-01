@@ -137,6 +137,16 @@ move ahead.</p>
                      }
   return false;
 });
+$('#target').on('keyup keypress', function(e) {
+  var keyCode = e.keyCode || e.which;
+  if (keyCode === 13) { 
+    e.preventDefault();
+    return false;
+  }
+});
+$("#downgo").click(function(){
+    $('html,body').animate({scrollTop: $(".second-sec").offset().top},'slow');
+});
 
 </script>
 </body>
